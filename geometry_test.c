@@ -95,7 +95,7 @@ END_TEST
 START_TEST( test_coord_2d_area_triangle )
 {
     coord_2d_t a = {.x=-1.0,.y=0.0}, b={.x=1.0,.y=0.0}, c = {.x=0.0,.y=1.0};
-    ck_assert(coord_2d_area_triangle(&a, &b, &c) == 1.0);
+    ck_assert(coord_2d_area_triangle(&a, &b, &c) == 2.0);
 }
 END_TEST
 
